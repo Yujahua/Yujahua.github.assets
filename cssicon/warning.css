@@ -16,8 +16,6 @@ div.warning {
     content: '';
     position: absolute;
     width: 0.3em;
-    
-    /* width: 10em; */
     height: 70%;
     background: #fff;
     right: 30%;
@@ -28,8 +26,6 @@ div.warning {
     content: '';
     position: absolute;
     width: 0.3em;
-    
-    /* width: 10em; */
     height: 70%;
     background: #fff;
     right: 60%;
@@ -38,7 +34,9 @@ div.warning {
 }
 .orange{
     background-color: #ffc440;
-    
+}
+.hover.orange:hover{
+    background-color: #ffb000;
 }
 .font-size-half-half-half{
     font-size: 0.125em;
